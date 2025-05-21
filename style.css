@@ -1,0 +1,132 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to top left, #050000, #6B0202);
+    color: white;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    background-color: #ff5757;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.company-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Welcome Section */
+.welcome-section {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.welcome-text {
+    font-size: 48px;
+    font-style: italic;
+    color: #ff5757;
+    font-family: 'Island Moments', cursive;
+}
+
+/* Services Section */
+.services-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.services-section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.services-section ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.services-section li {
+    margin-bottom: 5px;
+}
+
+/* Manufacturing Section */
+.manufacturing-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.manufacturing-section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.manufacturing-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column, .right-column {
+    width: 48%;
+}
+
+.left-column li, .right-column li {
+    margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.fancy-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    color: white;
+    background-color: #ff5757;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.fancy-button:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
