@@ -62,5 +62,22 @@
             <a href="https://wa.me/79120843655 " class="fancy-button">Связаться</a>
         </footer>
     </main>
+    <script>
+    window.onload = function() {
+        const name = prompt("Здравствуйте! Как вас зовут?");
+
+        if (name) {
+            alert(`Рады приветствовать, ${name}!`);
+        } else {
+            alert("Вы не указали имя, но добро пожаловать на наш сайт!");
+        }
+
+        const proceed = confirm("Хотите перейти к услугам?");
+        
+        if (proceed) {
+            document.getElementById('services').scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+</script>
 </body>
 </html>
