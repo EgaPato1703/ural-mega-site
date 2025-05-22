@@ -45,7 +45,18 @@ header {
     text-align: center;
     padding: 20px 0;
 }
+.welcome-section h2 {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease forwards;
+}
 
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 .welcome-text {
     font-size: 48px;
     font-style: italic;
